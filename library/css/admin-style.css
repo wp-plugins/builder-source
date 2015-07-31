@@ -1,0 +1,42 @@
+label {
+	font-size: 115%;
+}
+
+.result .input {
+	white-space: pre-wrap;
+}
+
+.browser-preview {
+	border: 12px solid #e3e3e3;
+}
+
+.gutter {
+	float: left;
+	width: 30px;
+	color: #808080;
+	font-size: 12px;
+	text-align: right;
+	padding: 0 10px;
+	line-height: 21px;
+	border-right: 1px solid #bbbbbb;
+	background-color: #f0f0f0;
+	overflow: hidden;
+	font-family: "Courier New", Courier, monospace, sans-serif;
+}
+
+.code-line {
+	font-family: "Courier New", Courier, monospace, sans-serif;
+	text-align: left;
+	font-size: 12px;
+	margin: 0;
+	padding: 0 10px;
+	line-height: 21px;
+	height: 21px;
+	overflow: auto;
+	color: #236e25;
+	background-color: #fff;
+}
+
+
+.comment {
+}
