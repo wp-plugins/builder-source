@@ -4,7 +4,7 @@ Tags: builder source, builder-source, buildersource, builder, source, code, inje
 Donate link: http://www.prodes.nl/wordpress/builder-source/
 Requires at least: 3.9.2
 Tested up to: 4.2.3
-Stable tag: trunk
+Stable tag: 1.0.1
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
