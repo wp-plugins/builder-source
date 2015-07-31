@@ -4,10 +4,10 @@
  * Plugin Name: Builder source by Prodes
  * Plugin URI: http://www.prodes.nl/
  * Description: Injects a comment in the source of your Wordpress site to show the builder information
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Jurgen Bosch
  * Author URI: http://www.prodes.nl
- * License: GPL2
+ * License: GPLv3
  *
  * Copyright 2015  Prodes  (email : info@prodes.nl)
  *

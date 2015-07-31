@@ -42,6 +42,9 @@ Do you have any questions or issues with Builder source? Please use the link bel
 2. Builder Source output
 
 == Changelog ==
+= 1.0.1 (2015-07-31) =
+* Fixed a javascript bug in the backend
+
 = 1.0.0 (2015-07-31) =
 * First stable release :)
 

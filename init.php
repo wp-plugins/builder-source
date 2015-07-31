@@ -1,7 +1,7 @@
 <?php
 
 # First we define some variables
-define('BSP_VERSION', 	'1.0.0');
+define('BSP_VERSION', 	'1.0.1');
 define('BSP_FOLDER', 	'builder-source');
 define('BSP_NAME',		'Builder source');
 define('BSP_PATH', 		plugin_dir_path(BSP_FILE));

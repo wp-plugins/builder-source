@@ -7,7 +7,6 @@ if( !class_exists( 'BSP_admin' ) ) {
 
 		# Let's fire up the class
 		function __construct() {
-
 			add_action('admin_init',			array($this, 'bsp_register_settings'), 5);
 			add_action('admin_menu',			array($this, 'bsp_register_menu'), 5);
 			add_action('admin_enqueue_scripts',	array($this, 'bsp_register_admin_style'), 15);
@@ -82,8 +81,13 @@ if( !class_exists( 'BSP_admin' ) ) {
 		# Include the admin javascript file
 		function bsp_register_admin_script() {
 
-			wp_register_script('bsp_admin_javascript', plugins_url() . '/' . BSP_FOLDER . '/library/js/admin-script.js', false, '1.0.0');
-			wp_enqueue_script('bsp_admin_javascript');
+			$page_info = get_current_screen();
+
+			if($page_info->id == 'settings_page_builder-source') {
+				wp_register_script('bsp_admin_javascript', plugins_url() . '/' . BSP_FOLDER . '/library/js/admin-script.js', false, '1.0.0');
+				wp_enqueue_script('bsp_admin_javascript');
+			}
+
 
 		}
 
