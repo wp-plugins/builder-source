@@ -1,6 +1,6 @@
 === Builder Source ===
 Contributors: prodes
-Tags: source, code, inject, comment, signature, credentials, created by, build by, developed by, sourcecode, source-code, commentcode, comment-code,
+Tags: builder source, builder-source, buildersource, builder, source, code, inject, comment, signature, credentials, created by, build by, developed by, sourcecode, source-code, commentcode, comment-code,
 Donate link: http://www.prodes.nl/wordpress/builder-source/
 Requires at least: 3.9.2
 Tested up to: 4.2.3
@@ -20,7 +20,7 @@ This plugin adds one or multiple lines of comment code in the HEAD section of yo
 * Plug and play
 
 = Links =
-* [Plugin\'s web page](http://www.prodes.nl/wordpress/builder-source/)
+* [Plugin's web page](http://www.prodes.nl/wordpress/builder-source/)
 
 == Installation ==
 This section describes how to install and use the plugin.
